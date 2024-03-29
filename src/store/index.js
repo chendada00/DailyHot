@@ -54,7 +54,7 @@ export const mainStore = defineStore("mainData", {
           label: "IT之家",
           name: "ithome",
           order: 7,
-          show: true,
+          show: false,
         },
         {
           label: "澎湃新闻",
@@ -90,7 +90,7 @@ export const mainStore = defineStore("mainData", {
           label: "豆瓣",
           name: "douban_new",
           order: 13,
-          show: true,
+          show: false,
         },
         {
           label: "原神",
@@ -131,14 +131,14 @@ export const mainStore = defineStore("mainData", {
         {
           label: "网易云音乐",
           name: "netease_music_toplist",
-          params: { type: 1 },
+          params: { type: 4 },
           order: 20,
           show: true,
         },
         {
           label: "QQ音乐热歌榜",
           name: "qq_music_toplist",
-          params: { type: 1 },
+          params: { type: 2 },
           order: 21,
           show: true,
         },
