@@ -11,7 +11,7 @@ export const mainStore = defineStore("mainData", {
         {
           label: "哔哩哔哩",
           name: "bilibili",
-          order: 0,
+          order: 5,
           show: true,
         },
         {
@@ -41,7 +41,7 @@ export const mainStore = defineStore("mainData", {
         {
           label: "百度",
           name: "baidu",
-          order: 5,
+          order: 0,
           show: true,
         },
         {
@@ -90,7 +90,7 @@ export const mainStore = defineStore("mainData", {
           label: "豆瓣",
           name: "douban_new",
           order: 13,
-          show: false,
+          show: true,
         },
         {
           label: "原神",
