@@ -26,12 +26,12 @@ export const mainStore = defineStore("mainData", {
           order: 2,
           show: true,
         },
-        {
-          label: "知乎",
-          name: "zhihu",
-          order: 3,
-          show: true,
-        },
+        // {
+        //   label: "知乎",
+        //   name: "zhihu",
+        //   order: 3,
+        //   show: true,
+        // },
         {
           label: "36氪",
           name: "36kr",
